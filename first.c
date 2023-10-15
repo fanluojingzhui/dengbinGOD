@@ -2,19 +2,19 @@
 
 struct man
 {
-       char name;
-       char n;
-       char b;
-       int age[20];
-} pd;
+       char name[50];
+       char n[50];
+       char b[50];
+       int age;
+};
 
 int main()
 {
-    struct man a1 = {"邓佬，惊为天人，才智过人",18};
+    struct man a1 = {"邓佬", "惊为天人", "才智过人",18};
     struct man* pd = &a1;
-    printf("姓名: %c\n", pd->name);
-    printf("外貌: %c\n", pd->n);
-    printf("智商: %c\n", pd->b);
-    printf("年龄: %c\n", pd->age);
+    printf("姓名: %s\n", pd->name);
+    printf("外貌: %s\n", pd->n);
+    printf("智商: %s\n", pd->b);
+    printf("年龄: %d\n", pd->age);
     return 0;
 }
