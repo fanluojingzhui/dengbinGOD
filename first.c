@@ -13,7 +13,7 @@ void printMan();
 int main()
 {
     struct man p1;
-    strcpy(p1.name, "邓彬");
+    strcpy(p1.name, "邓佬");
     strcpy(p1.face, "惊为天人");
     strcpy(p1.iq, "114514");
     p1.age = 17;
