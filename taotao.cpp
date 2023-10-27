@@ -16,6 +16,6 @@ int main()
         if (a[j] <= hight + 30)
             n++;
     }
-    cout << "陶陶可以够到" << n << "个苹果" << endl;
+    cout << n << endl;
     return 0;
 } // namespace std;
