@@ -1,5 +1,6 @@
 #include <iostream>
-using namespace std;
+#define endl "\n"
+using std::cin, std::cout;
 
 int main()
 {
